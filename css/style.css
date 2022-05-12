@@ -1,6 +1,135 @@
+
+
+
+
+
+
+/* DIMENSIONI */
+/* Tablet: da 768px
+Desktop: da 992px */
+
+
+
+
+
+
+
 /* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* COMMON */
+
+h3{
+    color: #0486fd;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+p{
+    color: #5e7384;
+    font-weight: bold;
+    margin: 1rem 0;
+    line-height: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+
+/* BACKGROUND */
+
+.header-background{
+    background-color: #0084fd;
+}
+
+/* CONTAINER */
+
+.header-container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* HEADER SPACINGS */
+
+.header-spacings{
+    margin-bottom: 3rem;
+}
+
+/* LOGO */
+
+.logo{
+    width: calc(50% / 2);
+    
+    /* TEST */
+    border: 1px solid red;
+    margin: 2rem 0;
+}
+
+/* BURGER */
+
+.burger{
+    width: calc(50% / 2);
+    
+    /* TEST */
+    border: 1px solid red;
+    margin: 2rem 0;
+}
+
+/* MAIN */
+
+/* CONTAINER */
+
+.demo-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* CARDS */
+
+.card{
+    width: 100%;
+    background-color: #b5ddff;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+
+/* CARDS CONTAINER */
+
+.cards-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/* STORE BUTTON */
+
+.store-button{
+    margin: 1.5rem 0;
+}
+
+.store-btn{
+    background-color: #0084fd;
+    color: white;
+    padding: 0.5rem 4rem;
+    border-radius: 25px;
+}
+
+/* CARD SUBTITLE */
+
+.card-subtitle{
+    text-align: center;
 }
