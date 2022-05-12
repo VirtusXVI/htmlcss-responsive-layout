@@ -21,31 +21,30 @@ Desktop: da 992px */
     box-sizing: border-box;
 }
 
+
+
+
 /* BODY */
+
+
+
 
 body{
     font-family: 'PT Sans', sans-serif;
 }
 
+
+
+
 /* COMMON */
+
+
+
 
 h3{
     color: #0486fd;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-}
-
-.card-text p{
-    color: #5e7384;
-    font-weight: bold;
-    margin: 1rem 0;
-    line-height: 1.5rem;
-}
-
-.planning-text p{
-    color: white;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
 }
 
 a{
@@ -56,7 +55,14 @@ a{
     color: white;
     font-size: 2rem;
 }
+
+
+
+
 /* HEADER */
+
+
+
 
 /* BACKGROUND */
 
@@ -108,7 +114,13 @@ a{
     margin: 0 auto;
 }
 
+
+
+
 /* CARDS SECTION */
+
+
+
 
 /* CARDS */
 
@@ -146,7 +158,21 @@ a{
     text-align: center;
 }
 
+
+.card-text p{
+    color: #5e7384;
+    font-weight: bold;
+    margin: 1rem 0;
+    line-height: 1.5rem;
+}
+
+
+
+
 /* PLANNING SECTION */
+
+
+
 
 /* BACKGROUND */
 
@@ -159,6 +185,14 @@ a{
 .planning-container{
     width: 85%;
     margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+.planning-text p{
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
 }
 
 /* PLANNING CARD */
@@ -168,9 +202,77 @@ a{
     background-color: white;
     border-radius: 25px;
     padding-bottom: 2rem;
+    line-height: 1.5rem;
 }
 
 .planning-card-title{
     color: black;
+    text-align: center;
+}
+
+
+
+
+/* PARTNERS SECTION */
+
+
+
+/* PARTNERS CONTAINER */
+
+.partners-container{
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+/* TESTIMONIALS */
+
+.testimonials{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+/* TITLE */
+
+.partners-title{
+    font-size: 2.5rem;
+    color: #9792e4;
+    text-align: center;
+}
+
+/* TEXT */
+
+.partners-text p{
+    line-height: 1.5rem;
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* PARTNERS CARDS */
+
+.partners-card{
+    width: 100%;
+    background-color: #9792e4;
+    color: white;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+
+.partner-cards-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.partners-card-text p{
+    text-align: center;
+    line-height: 2rem;
+    padding-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.partners-name p{
+    font-size: 1.5rem;
     text-align: center;
 }
