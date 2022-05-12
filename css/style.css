@@ -35,17 +35,27 @@ h3{
     margin-bottom: 1.5rem;
 }
 
-p{
+.card-text p{
     color: #5e7384;
     font-weight: bold;
     margin: 1rem 0;
     line-height: 1.5rem;
 }
 
+.planning-text p{
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
 a{
     text-decoration: none;
 }
 
+.big-title{
+    color: white;
+    font-size: 2rem;
+}
 /* HEADER */
 
 /* BACKGROUND */
@@ -98,6 +108,8 @@ a{
     margin: 0 auto;
 }
 
+/* CARDS SECTION */
+
 /* CARDS */
 
 .card{
@@ -131,5 +143,34 @@ a{
 /* CARD SUBTITLE */
 
 .card-subtitle{
+    text-align: center;
+}
+
+/* PLANNING SECTION */
+
+/* BACKGROUND */
+
+.planning-background{
+    background-color: #9792e4;
+}
+
+/* CONTAINER */
+
+.planning-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* PLANNING CARD */
+
+.planning-card{
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    padding-bottom: 2rem;
+}
+
+.planning-card-title{
+    color: black;
     text-align: center;
 }
