@@ -56,6 +56,10 @@ a{
     font-size: 2rem;
 }
 
+img{
+    width: 100%;
+}
+
 
 
 
@@ -136,7 +140,7 @@ a{
 .cards-container{
     max-width: 80%;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding-top: 2rem;
 }
 
 /* STORE BUTTON */
@@ -185,6 +189,7 @@ a{
 .planning-container{
     max-width: 85%;
     margin: 0 auto;
+    padding-top: 5rem;
     padding-bottom: 3rem;
 }
 
@@ -540,6 +545,40 @@ footer{
     .footer-container{
         max-width: 992px;
     }
+
+    .responsive-planning-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .strategic-planning{
+        height: 800px;
+        width: 55%;
+    }
+
+    .planning-card{
+        width: 40%;
+    }
+
+    .large-card-flexcontainer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .large-box-text{
+        width: 50%;
+    }
+
+    .phone-img{
+        width: 40%;
+        display: flex;
+        align-self: flex-end;
+    }
+
+    .benefits-card{
+        width: 30%;
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -590,9 +629,9 @@ footer{
         justify-content: space-between;
     }
 
-    .benefits-card{
+    /* .benefits-card{
         width: 45%;
-    }
+    } */
 
     .responsive-aboutus-container{
         display: flex;
@@ -604,9 +643,14 @@ footer{
     }
 }
 
+@media screen and (max-width: 991px) {
+    .benefits-card{
+        width: 45%;
+    }
+}
+
 @media screen and (min-width:375px) {
 
     /* MOBILE */
 
 }
-
