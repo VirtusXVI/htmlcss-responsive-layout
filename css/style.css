@@ -349,3 +349,59 @@ a{
     padding: 0.7rem 4rem;
     border-radius: 25px;
 }
+
+
+
+
+/* ABOUT US SECTION */
+
+
+
+/* ABOUT US CONTAINER */
+
+.aboutus-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/* ABOUT US TITLE */
+
+.aboutus-title h2{
+    color: #9792e4;
+    font-size: 3rem;
+    text-align: left
+}
+
+/* TEXT */
+
+.aboutus-text p{
+    margin-top: 2rem;
+}
+
+/* IMAGE */
+
+.aboutus-image{
+    padding: 3rem 0;
+}
+
+.aboutus-subtitle p{
+    color: #9792e4;
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* BUTTON */
+
+.aboutus-button{
+    margin: 1.5rem 0;
+}
+
+.aboutus-btn{
+    background-color: #9792e4;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+}
