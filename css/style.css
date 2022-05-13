@@ -476,3 +476,30 @@ a{
     margin-top: 2rem;
     text-align: center;
 }
+
+
+
+/* FOOTER */
+
+footer{
+    color: white;
+    font-size: 0.7rem;
+}
+
+/* CONTAINER + BACKGROUND */
+
+.footer-background{
+    background-color: #333333;
+}
+
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/* SUBTEXT */
+
+.footer-subtext{
+    margin: 2rem 0;
+}
