@@ -405,3 +405,74 @@ a{
     padding: 0.5rem 2rem;
     border-radius: 25px;
 }
+
+
+
+
+/* GET STARTED SECTION */
+
+/* BACKGROUND + CONTAINER */
+
+.getstarted-background{
+    background-color: #9792e4;
+}
+
+.getstarted-container{
+        width: 80%;
+        margin: 0 auto;
+        padding: 2rem 0;
+}
+
+/* MINI TITLE */
+
+.getstarted-minititle{
+    text-align: center;
+    color: #bfbcee;
+
+}
+
+/* TITLE */
+
+.getstarted-title h3{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+/* FREE */
+
+.getstarted-free h2{
+    color: #fdc15f;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* TEXT */
+
+.getstarted-text p{
+    color: white;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+/* BUTTON */
+
+.getstarted-button{
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.getstarted-btn{
+    background-color: white;
+    color: #9792e4;
+    padding: 1.5rem 6rem;
+    border-radius: 40px;
+}
+
+/* COPYRIGHT */
+
+.getstarted-copyright{
+    margin-top: 2rem;
+    text-align: center;
+}
