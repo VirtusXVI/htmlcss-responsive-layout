@@ -276,3 +276,76 @@ a{
     font-size: 1.5rem;
     text-align: center;
 }
+
+
+
+
+/* BENEFITS SECTION */
+
+/* BENEFITS BACKGROUND + CONTAINER */
+
+.benefits-background{
+    background-color: #9792e4;
+}
+
+.benefits-container{
+        width: 80%;
+        margin: 0 auto;
+        padding: 2rem 0;
+}
+
+/* BENEFITS TITLE */
+
+.benefits-title h2{
+    color: white;
+    font-size: 2rem;
+    text-align: center
+}
+
+/* BENEFITS CARD */
+
+.benefits-card{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.benefits-cards-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.uppercase-numbers{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #9792e4;
+}
+
+/* CARD SUBTITLE */
+
+.card-subtitle h2{
+    color: #9792e4;
+    text-align: left;
+    margin: 2rem 0;
+}
+
+.benefits-text p{
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+/* CARD BUTTON */
+
+.benefits-button{
+    margin: 1.5rem 0;
+}
+
+.benefits-btn{
+    background-color: #9792e4;
+    color: white;
+    padding: 0.7rem 4rem;
+    border-radius: 25px;
+}
